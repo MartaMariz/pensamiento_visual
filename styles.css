@@ -1,4 +1,4 @@
-.nav_bar ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,11 +6,11 @@
   background-color: #333;
 }
 
-.nav_bar li {
+nav li {
   float: left;
 }
 
-.nav_bar a {
+nav a {
   display: block;
   color: white;
   text-align: center;
@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-.nav_bar a:hover:not(.active) {
+nav a:hover:not(.active) {
   background-color: #111;
 }
 
@@ -60,6 +60,18 @@
 img{
   width: 50%;
   height: 50%;
+}
+
+.example ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+}
+
+.example li{
+  float: left;
 }
 
 #footer{
