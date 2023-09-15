@@ -22,13 +22,13 @@ nav a:hover:not(.active) {
   background-color: #111;
 }
 
-.main {
+#main {
   border: none;
   padding: 10px;
   text-align: center;
   width: 90%;
   text-decoration: none;
-  display: inline-block;
+  display: none;
   font-size: 16px;
 }
 
@@ -74,7 +74,7 @@ img{
   float: left;
 }
 
-#footer{
+.footer{
   background-color: #333;
   color: white;
   text-align: center;
@@ -84,4 +84,8 @@ img{
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.footer:hover{
+  background-color: orange;
 }

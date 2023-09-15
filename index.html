@@ -2,6 +2,11 @@
 <html>
 <head>
       <link rel="stylesheet" href="styles.css">
+      <script src="scripts/myscripts.js"></script>
+      <script src="scripts/jquery.js" type="text/javascript"></script>
+      <script src="scripts/myscript_jquery.js"></script>
+
+
 
     <title>Page Title</title>
 </head>
@@ -15,8 +20,10 @@
     </nav>
    
     <h1>Cool page</h1>
+    <button onclick="activateMain()">Show</button>
+    <button id="button2" >Example </button>
 
-    <div class="main">
+    <div id="main">
         <p id="text">Pink is pretty</p>
         <div id="side_img">
             <img src="/images/pink.jfif" alt="Pink">
@@ -34,6 +41,12 @@
             <li>pink</li>
             <li>yellow</li>
         </ul>
+    </div>
+    <div id="text2">
+        <button id="button3" >Add text </button>
+
+        <p>Yellow is bright</p>
+        <img src="/images/yellow.png" alt="Yellow">
     </div>
 
     <div class="footer">
